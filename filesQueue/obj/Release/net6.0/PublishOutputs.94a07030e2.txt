@@ -1,0 +1,11 @@
+C:\Users\Caio\source\repos\filesQueue\filesQueue\bin\Release\net6.0\publish\FilesQueueConsumer.exe
+C:\Users\Caio\source\repos\filesQueue\filesQueue\bin\Release\net6.0\publish\FilesQueueConsumer.dll
+C:\Users\Caio\source\repos\filesQueue\filesQueue\bin\Release\net6.0\publish\FilesQueueConsumer.deps.json
+C:\Users\Caio\source\repos\filesQueue\filesQueue\bin\Release\net6.0\publish\FilesQueueConsumer.runtimeconfig.json
+C:\Users\Caio\source\repos\filesQueue\filesQueue\bin\Release\net6.0\publish\FilesQueueConsumer.pdb
+C:\Users\Caio\source\repos\filesQueue\filesQueue\bin\Release\net6.0\publish\Microsoft.AspNetCore.Http.Abstractions.dll
+C:\Users\Caio\source\repos\filesQueue\filesQueue\bin\Release\net6.0\publish\Microsoft.AspNetCore.Http.Features.dll
+C:\Users\Caio\source\repos\filesQueue\filesQueue\bin\Release\net6.0\publish\Microsoft.Extensions.Primitives.dll
+C:\Users\Caio\source\repos\filesQueue\filesQueue\bin\Release\net6.0\publish\Newtonsoft.Json.dll
+C:\Users\Caio\source\repos\filesQueue\filesQueue\bin\Release\net6.0\publish\RabbitMQ.Client.dll
+C:\Users\Caio\source\repos\filesQueue\filesQueue\bin\Release\net6.0\publish\StatsdClient.dll

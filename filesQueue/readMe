@@ -1,0 +1,12 @@
+acessar pasta rabbitmq-go e rodar
+> docker-compose up
+Isto irá criar a imagem
+
+voltar para pasta inicial do projeto e criar a imagem docker
+> docker build -t consumer-rabbitmq-image -f Dockerfile .
+
+rodar imagem do graphite para monitorar
+> docker run -d  -p 80:80   -p 8125:8125/udp   graphiteapp/graphite-statsd
+
+subir app
+> docker run --name=filesRabbitMQContainer  -it  consumer-rabbitmq-image

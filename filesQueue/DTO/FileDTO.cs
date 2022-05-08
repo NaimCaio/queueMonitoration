@@ -21,7 +21,8 @@ namespace FilesQueueConsumer.DTO
 
         public void  ValidarInformacao()
         {
-            var splitValues = filename.Split('_');
+            var nameWithouExtention = filename.Split('.');
+            var splitValues = nameWithouExtention[0].Split('_');
             NomeMaquina = splitValues[0];
             NomeAplicacao = splitValues[1];
             var timeString = splitValues[2];
