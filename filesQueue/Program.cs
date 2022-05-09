@@ -11,9 +11,15 @@ Metrics.Configure(new MetricsConfig
     StatsdServerName = "127.0.0.1",
     Prefix = "myApp"
 });
+//Rodando local
+var rabbtURL = Environment.GetEnvironmentVariable("rabbit");
+//Rodando no docker
+if (rabbtURL == null)
+{
+    rabbtURL = "host.docker.internal";
+}
+var factory = new ConnectionFactory() { HostName = rabbtURL };
 
-
-var factory = new ConnectionFactory() { HostName = "host.docker.internal" };
 using (var connection = factory.CreateConnection())
 using (var channel = connection.CreateModel())
 {

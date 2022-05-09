@@ -1,0 +1,10 @@
+{
+  "profiles": {
+    "FilesQueueConsumer": {
+      "commandName": "Project",
+      "environmentVariables": {
+        "rabbit": "localhost"
+      }
+    }
+  }
+}
