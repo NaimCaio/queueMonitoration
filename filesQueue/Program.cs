@@ -12,7 +12,8 @@ Metrics.Configure(new MetricsConfig
     Prefix = "myApp"
 });
 
-var factory = new ConnectionFactory() { HostName = "localhost" };
+
+var factory = new ConnectionFactory() { HostName = "host.docker.internal" };
 using (var connection = factory.CreateConnection())
 using (var channel = connection.CreateModel())
 {
