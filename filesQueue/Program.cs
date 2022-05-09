@@ -42,7 +42,7 @@ using (var channel = connection.CreateModel())
         }
         
         var counter = filesCount.GetValueOrDefault(obj.NomeAplicacao);
-        Metrics.Counter("gcCount"+ obj.NomeAplicacao, counter);
+        Metrics.GaugeAbsoluteValue("aplicattions."+obj.NomeAplicacao , counter);
 
         Console.WriteLine(" count = {0} for file {1} {2}", counter,obj.NomeAplicacao,DateTime.Now);
     };
