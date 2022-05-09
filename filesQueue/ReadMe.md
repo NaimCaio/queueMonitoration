@@ -1,4 +1,4 @@
-# Acessar pasta rabbitmq-go e rodar
+# Acessar pasta rabbitmq e rodar
 > docker-compose up
 
 Isto irá criar a imagem e subir para um container
